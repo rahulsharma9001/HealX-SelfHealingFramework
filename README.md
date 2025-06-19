@@ -33,8 +33,8 @@ The **HealX** is a powerful Self Healing Framework designed to enhance Selenium 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Rahulgarg01/HealX.git
-    cd HealX
+    git clone https://github.com/rahulsharma9001/HealX-SelfHealingFramework.git
+    cd HealX-SelfHealingFramework
     ```
 
 2. Set up your database. If using MongoDB, ensure the database server is running.

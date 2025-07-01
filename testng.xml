@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- Suite name -->
+<suite name="HealXParallelCrossBrowserSuite" parallel="tests" thread-count="2">
+
+    <!-- Chrome Test Block -->
+    <test name="ChromeTests">
+        <!-- Pass parameter for browser name -->
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <!-- Add your test class here -->
+            <class name="test"/>
+        </classes>
+    </test>
+
+    <!-- Firefox Test Block -->
+    <test name="FirefoxTests">
+        <!-- Pass parameter for browser name -->
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <!-- Add your test class here -->
+            <class name="test"/>
+        </classes>
+    </test>
+
+</suite>
